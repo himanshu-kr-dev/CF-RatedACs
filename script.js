@@ -40,7 +40,7 @@ function Show(response){
             var lett = i+"R";
             document.getElementById('accordion').innerHTML += "<table class='table table-hover table-dark'><thead><tr><th style='text-align: center;' scope='col'>" + i +" Problem || Solved - "+ arr[i].length +"</th></tr></thead><tbody id='"+ lett +"'></tbody></table>";
             for(var j = 0; j<arr1[i].length; ++j){
-                    document.getElementById(lett).innerHTML += "<tr><td style='text-align: center;'><a href ='"+links[arr1[i][j]]+"'>"+arr1[i][j]+"</a></td></tr>";
+                    document.getElementById(lett).innerHTML += "<tr><td style='text-align: center;'><a href ='"+links[arr1[i][j]]+"' target='_blank'>"+arr1[i][j]+"</a></td></tr>";
                 }
             }
         }
